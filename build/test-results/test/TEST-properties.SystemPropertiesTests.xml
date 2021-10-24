@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="properties.SystemPropertiesTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-24T07:58:08" hostname="LAPTOP-1TN7IBR7" time="0.18">
+  <properties/>
+  <testcase name="readDefaultFromPropertyTest()" classname="properties.SystemPropertiesTests" time="0.157"/>
+  <testcase name="readNullFromPropertyTest()" classname="properties.SystemPropertiesTests" time="0.014"/>
+  <testcase name="test1()" classname="properties.SystemPropertiesTests" time="0.003"/>
+  <system-out><![CDATA[default_value
+null
+[test1] Browser: null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

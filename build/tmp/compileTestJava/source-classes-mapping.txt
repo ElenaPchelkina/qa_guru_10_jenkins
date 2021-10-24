@@ -1,0 +1,10 @@
+guru/qa/PracticeFormPageObjectsTests.java
+ guru.qa.PracticeFormPageObjectsTests
+helpers/Attach.java
+ helpers.Attach
+components/Calendar.java
+ components.Calendar
+pages/RegistrationPage.java
+ pages.RegistrationPage
+properties/SystemPropertiesTests.java
+ properties.SystemPropertiesTests

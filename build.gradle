@@ -55,9 +55,10 @@ task smoke(type: Test) {
         includeTags 'smoke'
     }
 }
-
 task properties_tests(type: Test) {
-    systemProperties(System.getProperties())
+
+    systemProperty("browserSize", System.getProperty("browserSize", "400x400"))
+//    systemProperty("environment", System.getProperty("environment", "stage"))
     println "[build.gradle]: properties tests here"
     println "[build.gradle]: " + System.getProperty("browser")
 // gradle clean properties_tests -Dbrowser=safari

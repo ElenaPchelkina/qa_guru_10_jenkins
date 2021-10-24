@@ -4,8 +4,8 @@ import config.Credentials;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-import static java.lang.String.format;
 import static config.Credentials.credentials;
+import static java.lang.String.format;
 
 @Tag("properties")
 public class OwnerTests {
